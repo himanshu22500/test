@@ -1,0 +1,149 @@
+
+/* layout */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+/* header */
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img{
+    height: 2.5rem;
+    padding-left: 0.5em;
+    /* todo: logo one of taller then logo 2 */
+}
+
+.bg-custom{
+    background-color: #192839 !important;
+    color: white !important;
+}
+
+/* main */
+.text-container{
+    padding: 2em;
+}
+
+.text-container h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+
+h1 span{
+    color: #41D3BD;
+}
+
+.img-container{
+    padding: 0;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+/* footer */
+
+.home-footer{
+    background-color: #192839;
+    color: white;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+}
+
+.input-container input{
+    margin: 0.3em auto;
+    border: solid #192839;
+    border-radius: 0.5em;
+    padding: 0.5em 0.5em;
+    display: inline-block;
+    width: 80%;
+    font-size: 1.3em;
+}
+
+.bo{
+    border: solid 1px orange;
+}
+
+.input-container button{
+    display: inline-block;
+    width: 70%;
+    background-color: #41D3BD;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0.5em;
+}
+
+.input-container p{
+    padding-top: 0.5em;
+}
+
+p a{
+    color: #41D3BD;
+    border-bottom: 1.2px solid #41D3BD;
+}
+
+/* footer */
+
+.links-container a{
+    color: white;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: 2em;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo p{
+    color: #41D3BD;
+    font-weight: 100;
+}
+
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rating-container p{
+    font-size: 2em;
+    display: inline;
+    padding-right: 1em;
+    font-weight: 500;
+}
+
+.rating-container img{
+    height: 2.5rem;
+}
+
+.rating-container button{
+    background-color: #304D6D;
+    border-radius: 1.1em;
+    color: white;
+    border: none;
+    padding: 0.5em 2em;
+    margin: 1em;
+}
+
+
+
+
+
