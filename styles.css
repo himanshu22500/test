@@ -19,6 +19,10 @@ body{
     /* todo: logo one of taller then logo 2 */
 }
 
+.logo-container img:hover{
+    transform: scale(1.2);
+}
+
 .bg-custom{
     background-color: #192839 !important;
     color: white !important;
@@ -26,13 +30,26 @@ body{
 
 /* main */
 .text-container{
-    padding: 2em;
+    padding: 2em;    
 }
 
 .text-container h1{
     font-size: 5em;
     font-weight: bold;
+    animation-name: slide-right;
+    animation-duration: 1s;
 }
+
+/* animations */
+@keyframes slide-right{
+    0%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(50px);
+    }
+}
+
 
 h1 span{
     color: #41D3BD;
